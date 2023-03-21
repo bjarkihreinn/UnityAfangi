@@ -1,0 +1,10 @@
+using UnityEngine;
+using TMPro;
+public class SnuSnu : MonoBehaviour
+{
+
+    void Update()
+    {
+        transform.Rotate(0, 0, 50 * Time.deltaTime);
+    }
+}
