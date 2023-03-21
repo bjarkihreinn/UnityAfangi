@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public TMP_Text scoreText;
 
-    private int score;
+    public static int score;
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Peningur")
@@ -41,7 +41,6 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-        score = 0;
         Debug.Log("byrja");
     }
 
